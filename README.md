@@ -10,3 +10,8 @@
 Recursion chews up a valuable and limited resource, the stack, and can lead to an unrecoverable type error: overflow. Tail Recursion however is a form of recursion that can avoid exceeding stack space during its execution. This means tail call optimization is slightly faster (no stack pushes or pops are required) and overflow exceptions are avoided.
 
 **_Functional Programming &mdash;_**
+
+**_Monkey Patching &mdash;_**
+Modifying, extending or otherwise overwriting a language's core class or module. Generally not recomended due to the possibility of corrupting expected language behaviour, where possible it is better to have a new class.
+
+**_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
