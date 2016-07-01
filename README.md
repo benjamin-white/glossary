@@ -2,8 +2,8 @@
 
 ## Modern programming can be quite confusing with an array of concepts that go beyond syntax and language specifics, here are a few of the more abstract concepts.
 
-&mdash;_Duck Typing_
+_Duck Typing &mdash;_
 
-_Function Currying_
+_Function Currying &mdash;_
 
-_Tail Recusrion_
+_Tail Recusrion &mdash;_
