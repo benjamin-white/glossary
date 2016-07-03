@@ -35,3 +35,7 @@ Modifying, extending or otherwise overwriting a language's core class or module.
     
     method value_one, *value_two # The splat allows zero or more arguments to be supplied.
                                    It will arrive inside the function as an array.
+                                   
+    %w'one two three' # Split string on whitespace, equivalent to 'one two three'.split(' ')
+    
+    %(string (syntax) with "custom" delimeters) # Custom delimeters can limit need to backslash escape.
