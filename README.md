@@ -26,3 +26,11 @@ Modifying, extending or otherwise overwriting a language's core class or module.
     .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
     
     items.sort_by(&:length) # When a method requires no arguments this shorthand can be used.
+    
+    [*1..10] # Will expand to [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+    
+    condition ? true : false # One line ternary operator.
+    
+    method parameter=default # Sets default value for argument if none supplied.
+    
+    method value_one, *value_two # The splat allows zero or more arguments to be supplied, it will arrive inside the function as an array.
