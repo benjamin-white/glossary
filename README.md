@@ -23,4 +23,5 @@ Modifying, extending or otherwise overwriting a language's core class or module.
 
 # Ruby Shorthand
 
-    .reduce(:o) || .inject(:o) #Where 'o' is an arithmetic operation to be applied on a list or array of items.
+    .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
+    items.sort_by(&:length) # When a method requires no arguments this shorthand can be used.
