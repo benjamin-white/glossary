@@ -33,4 +33,5 @@ Modifying, extending or otherwise overwriting a language's core class or module.
     
     method parameter=default # Sets default value for argument if none supplied.
     
-    method value_one, *value_two # The splat allows zero or more arguments to be supplied, it will arrive inside the function as an array.
+    method value_one, *value_two # The splat allows zero or more arguments to be supplied.
+                                   It will arrive inside the function as an array.
