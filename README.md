@@ -40,6 +40,6 @@ While the three terms have different specific meanings and contexts they describ
                                    
     %w'one two three' # Split string on whitespace, equivalent to 'one two three'.split(' ')
     
-    %(string (syntax) with "custom" delimeters) # Custom delimeters can limit need to backslash escape.
+    %(string (syntax) with "custom" delimeters) # Custom delimeters can limit the need to backslash escape.
     
     one, two, three = %w'1 2 3' # Example of parallel assignment.
