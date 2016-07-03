@@ -15,3 +15,5 @@ Recursion chews up a valuable and limited resource, the stack, and can lead to a
 Modifying, extending or otherwise overwriting a language's core class or module. Generally not recomended due to the possibility of corrupting expected behaviour, whenever possible it is better to have a new class.
 
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
+
+**_Polyfill, Shim & Mixins &mdash;_**
