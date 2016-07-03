@@ -12,6 +12,7 @@ This involves deferred execution (sort of like a promise) where a function can b
 Recursion chews up a valuable and limited resource, the stack, and can lead to an unrecoverable type error: overflow. Tail Recursion however is a form of recursion that can avoid exceeding stack space during its execution. This means tail call optimization is slightly faster (no stack pushes or pops are required) and overflow exceptions are avoided.
 
 **_Functional Programming &mdash;_**
+Functional programming is an alternative paradigm to the imperative style. As such it seems daunting but also a powerful approach to understand, I need to try it out to get a feel for it!
 
 **_Monkey Patching &mdash;_**
 Modifying, extending or otherwise overwriting a language's core class or module. Generally not recomended due to the possibility of corrupting expected behaviour, whenever possible it is better to have a new class.
