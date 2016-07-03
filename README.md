@@ -39,3 +39,5 @@ Modifying, extending or otherwise overwriting a language's core class or module.
     %w'one two three' # Split string on whitespace, equivalent to 'one two three'.split(' ')
     
     %(string (syntax) with "custom" delimeters) # Custom delimeters can limit need to backslash escape.
+    
+    one, two, three = %w'1 2 3' # Example of parallel assignment.
