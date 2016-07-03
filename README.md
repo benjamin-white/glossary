@@ -19,3 +19,8 @@ Modifying, extending or otherwise overwriting a language's core class or module.
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
 
 **_Polyfill, Shim & Mixins &mdash;_**
+
+
+# Ruby Shorthand
+
+  .reduce(:o) || .inject(:o) Where 'o' is an arithmetic operation to be applied on a list or array of itmes.
