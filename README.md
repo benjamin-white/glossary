@@ -20,6 +20,7 @@ Modifying, extending or otherwise overwriting a language's core class or module.
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
 
 **_Polyfill, Shim & Mixins &mdash;_**
+While the three terms have different specific meanings and contexts they describe the same principle of adding additional functionality we desire, but that was not available. Polyfills and shims are about adding functionality to the environment (frequently the browser) while mixins relate to shareing methods within the code (where the functionality can be included rather than needing to be inherited from a class).
 
 
 # Ruby Shorthand
