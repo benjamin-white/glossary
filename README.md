@@ -26,7 +26,7 @@ While the three terms have different specific meanings and contexts they describ
 **_REPL, CRUD, REST &mdash;_**
 * Read Evaluate Print Loop
 * Create Read Update Delete
-* R...
+* Representational State Transfer
 
 
 # Ruby Shorthand
