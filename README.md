@@ -43,3 +43,6 @@ While the three terms have different specific meanings and contexts they describ
     %(string (syntax) with "custom" delimeters) # Custom delimeters can limit the need to backslash escape.
     
     one, two, three = %w'1 2 3' # Example of parallel assignment.
+    
+    a ||= b # Set a to b only if a is nil / undefined / false
+    
