@@ -18,6 +18,7 @@ Functional programming is an alternative paradigm to the imperative style. As su
 Modifying, extending or otherwise overwriting a language's core class or module. Generally not recomended due to the possibility of corrupting expected behaviour, whenever possible it is better to have a new class.
 
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
+Encapsulation refers to the wrapping of variables and methods together as a single unit and limiting the exposure of those variables to the larger world, kind of like a containment stratergy! This can prevent unintended manipulation of data and hides complexity from interacting external Classes or methods. In some languages it can be specified using the 'private' keyword.
 
 **_Polyfill, Shim & Mixins &mdash;_**
 While the three terms have different specific meanings and contexts they describe the same principle of adding additional functionality we desire, but that was not available. Polyfills and shims are about adding functionality to the environment (frequently the browser) while mixins relate to shareing methods within the code (where the functionality can be included rather than needing to be inherited from a class).
