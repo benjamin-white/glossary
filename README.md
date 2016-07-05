@@ -23,6 +23,11 @@ Encapsulation refers to the wrapping of variables and methods together as a sing
 **_Polyfill, Shim & Mixins &mdash;_**
 While the three terms have different specific meanings and contexts they describe the same principle of adding additional functionality we desire, but that was not available. Polyfills and shims are about adding functionality to the environment (frequently the browser) while mixins relate to shareing methods within the code (where the functionality can be included rather than needing to be inherited from a class).
 
+**_REPL, CRUD, REST &mdash;_**
+* Read Evaluate Print Loop
+* Create Read Update Delete
+* R...
+
 
 # Ruby Shorthand
 
