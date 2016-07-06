@@ -19,6 +19,7 @@ Modifying, extending or otherwise overwriting a language's core class or module.
 
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
 Encapsulation refers to the wrapping of variables and methods together as a single unit and limiting the exposure of those variables to the larger world, kind of like a containment strategy! This can prevent unintended manipulation of data and hides complexity from interacting external Classes or methods. In some languages it can be specified using the 'private' keyword.
+SRP maintains that a function will ideally have one, clearly defined, responsibility. This makes code maintanence and debugging easier as it becomes harder to pollute a function's purpose when editing and easier to locate a problematic portion of code when things go wrong. In short it helps everyone a lot and makes life simpler, practice the technique and don't have long methods doing many different things!
 
 **_Polyfill, Shim & Mixins &mdash;_**
 While the three terms have different specific meanings and contexts they describe the same principle of adding additional functionality we desire, but that was not available. Polyfills and shims are about adding functionality to the environment (frequently the browser) while mixins relate to shareing methods within the code (where the functionality can be included rather than needing to be inherited from a class).
