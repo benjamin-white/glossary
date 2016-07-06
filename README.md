@@ -18,7 +18,7 @@ Functional programming is an alternative paradigm to the imperative style. As su
 Modifying, extending or otherwise overwriting a language's core class or module. Generally not recomended due to the possibility of corrupting expected behaviour, whenever possible it is better to have a new class.
 
 **_Encapsulation, Single Responsibility Principle & Closures &mdash;_**
-Encapsulation refers to the wrapping of variables and methods together as a single unit and limiting the exposure of those variables to the larger world, kind of like a containment strategy! This can prevent unintended manipulation of data and hides complexity from interacting external Classes or methods. In some languages it can be specified using the 'private' keyword.
+Encapsulation refers to the wrapping of variables and methods together as a single unit and limiting the exposure of those variables to the larger world, kind of like a containment strategy! This can prevent unintended manipulation of data and hides complexity from interacting external Classes or methods. In some languages it can be specified using the 'private' keyword.<br>
 SRP maintains that a function will ideally have one, clearly defined, responsibility. This makes code maintanence and debugging easier as it becomes harder to pollute a function's purpose when editing and easier to locate a problematic portion of code when things go wrong. In short it helps everyone a lot and makes life simpler, practice the technique and don't have long methods doing many different things!
 
 **_Polyfill, Shim & Mixins &mdash;_**
