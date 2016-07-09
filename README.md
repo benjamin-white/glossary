@@ -30,6 +30,19 @@ While the three terms have different specific meanings and contexts they describ
 * Create Read Update Delete
 * Representational State Transfer
 
+**_Test Doubles, Mocks & Stubs &mdash;_**
+
+**_Git &mdash;_**
+* Branches &mdash;
+* Forks &mdash;
+* Clones &mdash;
+* Push &mdash;
+* Pull &mdash;
+* Fetch &mdash;
+* Remote &mdash;
+* Upstream &mdash;
+* Checkout &mdash;
+* Commit &mdash;
 
 # Ruby Shorthand
 
