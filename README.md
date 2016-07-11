@@ -45,6 +45,8 @@ While the three terms have different specific meanings and contexts they describ
 * Upstream &mdash;
 * Checkout &mdash;
 * Commit &mdash;
+* Merge &mdash;
+* HEAD &mdash;
 
 # Ruby Shorthand
 
