@@ -31,6 +31,7 @@ While the three terms have different specific meanings and contexts they describ
 * Representational State Transfer
 
 **_Test Doubles, Mocks & Stubs &mdash;_**
+With these the nomenclature often overlaps seemingly as much based on the philopsophy of the person describing it as the particular testing framework being described. In what seems like the purest interpretation though tests can use stand in doubles to avoid the overhead, complexity and possible contamination of test results that comes with using a real object. Doubles is really an umbrella that covers the stratas Dummy, Fake, Mock & Stub. The first two of these act like placeholders, sometimes just being something to fill a gap in a parameter list; the later two are generally concerned with accepting messages, replying with predetermined responses and logging the behaviour of the subject under test. As such all doubles stand in for what would be a collaborator in the production environment. This then can bifuricate further into a distinction between testing state or behaviour (often messages), a distinction sometimes refered to as the 'Detroit' and 'London' styles of testing. The London style being closer to BDD. Martin Fowler has a good article explaining this in more detail (and clarity) http://martinfowler.com/articles/mocksArentStubs.html
 
 **_TDD & BDD &mdash;_**
 
