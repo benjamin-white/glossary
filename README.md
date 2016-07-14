@@ -49,6 +49,8 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 * Merge &mdash;
 * HEAD &mdash;
 
+**_Dependancy Inversion &mdash;_**
+
 # Ruby Shorthand
 
     .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
