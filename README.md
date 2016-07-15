@@ -53,6 +53,10 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 
 **_SOLID Principles &mdash;_**
 
+**_Inheritance & Composition &mdash;_**
+
+**_Constructor vs. Initialise &mdash;_**
+
 # Ruby Shorthand
 
     .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
