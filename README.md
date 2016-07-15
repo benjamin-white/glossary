@@ -51,6 +51,8 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 
 **_Dependancy Inversion &mdash;_**
 
+**_SOLID Principles &mdash;_**
+
 # Ruby Shorthand
 
     .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
