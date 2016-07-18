@@ -37,6 +37,9 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 
 **_Git &mdash;_**
 * Branches &mdash;
+* Checkout &mdash;
+  * -b
+  * --orphan
 * Forks &mdash;
 * Clones &mdash;
 * Push &mdash;
@@ -46,6 +49,10 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 * Upstream &mdash;
 * Checkout &mdash;
 * Commit &mdash;
+  * -m
+  * -ammend
+* Reset
+  * --hard
 * Merge &mdash;
 * HEAD &mdash;
 
@@ -56,6 +63,10 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 **_Inheritance & Composition &mdash;_**
 
 **_Constructor vs. Initialise &mdash;_**
+
+** _Declarative, Imperative & Procedural styles &mdash;_**
+
+**_Anti Pattern &mdash;_**
 
 # Ruby Shorthand
 
