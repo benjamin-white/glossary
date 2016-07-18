@@ -56,10 +56,17 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 * Merge &mdash;
 * HEAD &mdash;
 
-**_Dependancy Inversion &mdash;_**
+**_Dependancy Injection &mdash;_**
 In Javascript there is a similar concept called _pure functions_, and these inherently must have _referential transparency_. The core tennant with a pure function is that it does not reach outside itself into a wider scope to work as this would make testing, debugging and reuse much harder; the function would often be dependant on some cryptic object that then takes detective work to find. To circumvent this (and make the references more transparent) dependencies are always passed as a parameter to the function. They are _injected_ when the function is called rather than living permanently inside the function body.
 
+**_Dependancy Inversion Principle &mdash;_**
+
 **_SOLID Principles &mdash;_**
+* Single Responsibility Principle
+* Open / Closed
+* Lis.... Substitution Principle
+* ?
+* Dependancy _something?_
 
 **_Inheritance & Composition &mdash;_**
 
