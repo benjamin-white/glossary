@@ -64,7 +64,7 @@ With these the nomenclature often overlaps seemingly as much based on the philop
 
 **_Constructor vs. Initialise &mdash;_**
 
-** _Declarative, Imperative & Procedural styles &mdash;_**
+**_Declarative, Imperative & Procedural styles &mdash;_**
 
 **_Anti Pattern &mdash;_**
 
