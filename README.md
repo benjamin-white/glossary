@@ -58,8 +58,8 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
 * Branching & Merging
   * branch
   * checkout
-    * -b
-    * --orphan
+    > -b
+    > --orphan
   * merge
   * mergetool
   * log
@@ -70,9 +70,9 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
   * pull
   * push
   * remote
-    * -v
-    * add
-    * rm
+    > -v
+    > add
+    > rm
 * fork &mdash;
 * Upstream &mdash;
 * Commit &mdash;
@@ -91,7 +91,7 @@ In Javascript there is a similar concept called _pure functions_, and these inhe
 **_SOLID Principles &mdash;_**
 * Single Responsibility Principle
 * Open / Closed
-* Lis.... Substitution Principle
+* Liskov Substitution Principle
 * ?
 * Dependancy _something?_
 
