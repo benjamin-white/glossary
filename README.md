@@ -38,7 +38,8 @@ Test Driven Development was exposed by people like Kent Beck and the eXtreme Pro
 Behaviour Driven Development takes a cue from TDD but shifts the emphasis onto _'scenarios'_ and _'specifications'_ rather than tests in the terminology. To keep the development user-centric BDD uses an outside in approach building on the structure of TDD using a _role-feature_ matrix of user stories (ie. As a..., I want..., So that...). This then more easily and readably allows screnarios (tests) to be written using a _given / when / then_ notation. BDD is more highly concerned with the sending and receiving of messages and the distribution of responsibilities among classes and so strongly advocates the mocking approach.
 
 **_Unit Test, Feature Test & Acceptance Test &mdash;_**
-When applied to software tests _Unit Testing_ generally relates to the individual and unique components of a suite, often just a Class or even individual functions and methods. This is where test doubles have validity to ensure the unit being tested is isolated and is uniquely the subject of each test.
+When applied to software tests _Unit Testing_ generally relates to the individual and unique components of a suite, often just a Class or even individual functions and methods. This is where test doubles have validity to ensure the unit being tested is isolated and is uniquely the subject of each test.<br>
+This contrasts to (though works in partnership with) _Feature Tests_ which are less concerned with the internal workings of the problem and more concerned with how a user would interact with it in the wild. ...automated browsers eg.
 
 **_Git &mdash;_**
 * Branches &mdash;
