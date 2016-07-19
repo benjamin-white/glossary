@@ -70,9 +70,10 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
   * pull
   * push
   * remote
-    > -v
-    > add
-    > rm
+    <br>> -v
+    <br>> add
+    <br>> rm
+  * submodule
 * fork &mdash;
 * Upstream &mdash;
 * Commit &mdash;
