@@ -74,6 +74,28 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
     <br>> add
     <br>> rm
   * submodule
+* Inspection
+  * show
+  * shortlog
+  * describe
+* Patching
+  * apply 
+  * cherry-pick
+  * rebase
+  * revert
+* Debugging
+  * bisect
+  * blame
+  * grep
+* Email
+  * am
+  * apply
+  * format-patch
+  * send-email
+  * request-pull
+* External
+  * svn
+  * fast-import
 * fork &mdash;
 * Upstream &mdash;
 * Commit &mdash;
