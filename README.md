@@ -39,21 +39,42 @@ Behaviour Driven Development takes a cue from TDD but shifts the emphasis onto _
 
 **_Unit Test, Feature Test & Acceptance Test &mdash;_**
 When applied to software tests _Unit Testing_ generally relates to the individual and unique components of a suite, often just a Class or even individual functions and methods. This is where test doubles have validity to ensure the unit being tested is isolated and is uniquely the subject of each test.<br>
-This contrasts to (though works in partnership with) _Feature Tests_ which are less concerned with the internal workings of the problem and more concerned with how a user would interact with it in the wild. ...automated browsers eg.
+This contrasts to (though works in partnership with) _Feature Tests_, which are less concerned with the internal workings of the program and more concerned with how a user would interact with the application in the wild. This testing frequently utilises an automated browser to simulate user actions in conjunction with a testing framework such as _Capybara_ and a helper webdriver such as _Selenium_. As such feature tests could be seen as higher level than unit tests and being concerned with the successful flow of user interactions through a public software interface.<br>
+An _Acceptance test_ is then used to determine if the applcation has met the business requirements set for it. These tests are not limited to, but focused around, concepts of usability, scalability, performance, documentation and confidentiality. They are concerned with the product as a whole and its fitness for purpose.
 
 **_Git &mdash;_**
-* Branches &mdash;
-* Checkout &mdash;
-  * -b
-  * --orphan
-* Forks &mdash;
-* Clones &mdash;
-* Push &mdash;
-* Pull &mdash;
-* Fetch &mdash;
-* Remote &mdash;
+* Setup
+  * config
+  * init
+  * clone
+* Snapshotting
+  * add
+  * status
+  * diff
+  * commit
+  * reset
+  * rm
+  * mv
+* Branching & Merging
+  * branch
+  * checkout
+    * -b
+    * --orphan
+  * merge
+  * mergetool
+  * log
+  * stash
+  * tag
+* Sharing & Updating
+  * fetch
+  * pull
+  * push
+  * remote
+    * -v
+    * add
+    * rm
+* fork &mdash;
 * Upstream &mdash;
-* Checkout &mdash;
 * Commit &mdash;
   * -m
   * -ammend
