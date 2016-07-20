@@ -42,6 +42,26 @@ When applied to software tests _Unit Testing_ generally relates to the individua
 This contrasts to (though works in partnership with) _Feature Tests_, which are less concerned with the internal workings of the program and more concerned with how a user would interact with the application in the wild. This testing frequently utilises an automated browser to simulate user actions in conjunction with a testing framework such as _Capybara_ and a helper webdriver such as _Selenium_. As such feature tests could be seen as higher level than unit tests and being concerned with the successful flow of user interactions through a public software interface.<br>
 An _Acceptance test_ is then used to determine if the applcation has met the business requirements set for it. These tests are not limited to, but focused around, concepts of usability, scalability, performance, documentation and confidentiality. They are concerned with the product as a whole and its fitness for purpose.
 
+**_Dependancy Injection &mdash;_**
+In Javascript there is a similar concept called _pure functions_, and these inherently must have _referential transparency_. The core tennant with a pure function is that it does not reach outside itself into a wider scope to work as this would make testing, debugging and reuse much harder; the function would often be dependant on some cryptic object that then takes detective work to find. To circumvent this (and make the references more transparent) dependencies are always passed as a parameter to the function. They are _injected_ when the function is called rather than living permanently inside the function body.
+
+**_Dependancy Inversion Principle &mdash;_**
+
+**_SOLID Principles &mdash;_**
+* Single Responsibility Principle
+* Open / Closed
+* Liskov Substitution Principle
+* ?
+* Dependancy _something?_
+
+**_Inheritance & Composition &mdash;_**
+
+**_Constructor vs. Initialise &mdash;_**
+
+**_Declarative, Imperative & Procedural styles &mdash;_**
+
+**_Anti Pattern &mdash;_**
+
 **_Git &mdash;_**
 * Setup
   * config
@@ -116,26 +136,6 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
   * --hard
 * Merge &mdash;
 * HEAD &mdash;
-
-**_Dependancy Injection &mdash;_**
-In Javascript there is a similar concept called _pure functions_, and these inherently must have _referential transparency_. The core tennant with a pure function is that it does not reach outside itself into a wider scope to work as this would make testing, debugging and reuse much harder; the function would often be dependant on some cryptic object that then takes detective work to find. To circumvent this (and make the references more transparent) dependencies are always passed as a parameter to the function. They are _injected_ when the function is called rather than living permanently inside the function body.
-
-**_Dependancy Inversion Principle &mdash;_**
-
-**_SOLID Principles &mdash;_**
-* Single Responsibility Principle
-* Open / Closed
-* Liskov Substitution Principle
-* ?
-* Dependancy _something?_
-
-**_Inheritance & Composition &mdash;_**
-
-**_Constructor vs. Initialise &mdash;_**
-
-**_Declarative, Imperative & Procedural styles &mdash;_**
-
-**_Anti Pattern &mdash;_**
 
 # Ruby Shorthand
 
