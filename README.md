@@ -46,6 +46,7 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
 In Javascript there is a similar concept called _pure functions_, and these inherently must have _referential transparency_. The core tennant with a pure function is that it does not reach outside itself into a wider scope to work as this would make testing, debugging and reuse much harder; the function would often be dependant on some cryptic object that then takes detective work to find. To circumvent this (and make the references more transparent) dependencies are always passed as a parameter to the function. They are _injected_ when the function is called rather than living permanently inside the function body.
 
 **_Dependancy Inversion Principle &mdash;_**
+At the heart of _Dependency Inversion_ is the premise that high level modules should not depend on low level ones for their uitility. This arises as in some situations the two are tightly coupled and there are certain scenarios for which this coupling proves highly problematic. Dependency inversin instead suggests to avoid this coupling and allow the levels to inteface through an intermediary abstraction layer. As such it might be beneficial to think of the principle more as high level dependency negation through abstration helpers; it does not so much invert the direction as limit the acuteness at higher levels. As with many principles here while it can be highly beneficial it may still not be appropriate (or neccessary) for every implementation.
 
 **_SOLID Principles &mdash;_**
 * Single Responsibility Principle
