@@ -55,11 +55,11 @@ At the heart of _Dependency Inversion_ is the premise that high level modules sh
 * Inversion Of Control
 * Dependancy Inversion
 
-**_Inheritance & Composition &mdash;_**
+**_Inheritance vs. Composition &mdash;_**
 
 **_Constructor vs. Initialise &mdash;_**
 
-**_Declarative, Imperative & Procedural styles &mdash;_**
+**_Declarative/Functional, Imperative & Procedural styles &mdash;_**
 
-**_Anti Pattern &mdash;_**
+**_Anti Patterns &mdash;_**
     
