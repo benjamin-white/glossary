@@ -46,7 +46,7 @@ An _Acceptance test_ is then used to determine if the applcation has met the bus
 In Javascript there is a similar concept called _pure functions_, and these inherently must have _referential transparency_. The core tennant with a pure function is that it does not reach outside itself into a wider scope to work as this would make testing, debugging and reuse much harder; the function would often be dependant on some cryptic object that then takes detective work to find. To circumvent this (and make the references more transparent) dependencies are always passed as a parameter to the function. They are _injected_ when the function is called rather than living permanently inside the function body.
 
 **_Dependancy Inversion Principle &mdash;_**
-At the heart of _Dependency Inversion_ is the premise that high level modules should not depend on low level ones for their uitility. This arises as in some situations the two are tightly coupled and there are certain scenarios for which this coupling proves highly problematic. Dependency inversin instead suggests to avoid this coupling and allow the levels to inteface through an intermediary abstraction layer. As such it might be beneficial to think of the principle more as high level dependency negation through abstration helpers; it does not so much invert the direction as limit the acuteness at higher levels. As with many principles here while it can be highly beneficial it may still not be appropriate (or neccessary) for every implementation.
+At the heart of _Dependency Inversion_ is the premise that high level modules should not depend on low level ones for their uitility. This arises as in some situations the two are tightly coupled and there are certain scenarios for which this coupling proves highly problematic. Dependency inversion instead suggests to avoid this coupling and allow the levels to inteface through an intermediary abstraction layer. As such it might be beneficial to think of the principle more as high level dependency negation through abstration helpers; it does not so much invert the direction as limit the acuteness at higher levels. As with many principles here while it can be highly beneficial it may still not be appropriate (or neccessary) for every implementation.
 
 **_SOLID Principles &mdash;_**
 * Single Responsibility Principle
@@ -62,102 +62,4 @@ At the heart of _Dependency Inversion_ is the premise that high level modules sh
 **_Declarative, Imperative & Procedural styles &mdash;_**
 
 **_Anti Pattern &mdash;_**
-
-**_Git &mdash;_**
-* Setup
-  * config
-  * init
-  * clone
-* Snapshotting
-  * add
-  * status
-  * diff
-  * commit
-  * reset
-  * rm
-  * mv
-* Branching & Merging
-  * branch
-  * checkout
-    <br>> -b
-    <br>> --orphan
-  * merge
-  * mergetool
-  * log
-  * stash
-  * tag
-* Sharing & Updating
-  * fetch
-  * pull
-  * push
-  * remote
-    <br>> -v
-    <br>> add
-    <br>> rm
-  * submodule
-* Inspection
-  * show
-  * shortlog
-  * describe
-* Patching
-  * apply 
-  * cherry-pick
-  * rebase
-  * revert
-* Debugging
-  * bisect
-  * blame
-  * grep
-* Email
-  * am
-  * apply
-  * format-patch
-  * send-email
-  * request-pull
-* External
-  * svn
-  * fast-import
-* Administration
-  * clean
-  * gc
-  * fsck
-  * reflog
-  * filter-branch
-  * instaweb
-  * archive
-  * bundle
-* Plumbing Commands
-  * diff-index
-* fork &mdash;
-* Upstream &mdash;
-* Commit &mdash;
-  * -m
-  * -ammend
-* Reset
-  * --hard
-* Merge &mdash;
-* HEAD &mdash;
-
-# Ruby Shorthand
-
-    .reduce(:o) || .inject(:o) # Where 'o' is an arithmetic operation to be applied on a list or array of items.
-    
-    items.sort_by(&:length) # When a method requires no arguments this shorthand can be used.
-    
-    [*1..10] # Will expand to [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-    
-    condition ? true : false # One line ternary operator.
-    
-    method parameter=default # Sets default value for argument if none supplied.
-    
-    method value_one, *value_two # The splat allows zero or more arguments to be supplied.
-                                   It will arrive inside the function as an array.
-                                   
-    %w'one two three' # Split string on whitespace, equivalent to 'one two three'.split(' ')
-    
-    %(string (syntax) with "custom" delimeters) # Custom delimeters can limit the need to backslash escape.
-    
-    one, two, three = %w'1 2 3' # Example of parallel assignment.
-    
-    a ||= b # Set a to b only if a is nil / undefined / false
     
