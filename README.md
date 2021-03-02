@@ -52,8 +52,8 @@ At the heart of _Dependency Inversion_ is the premise that high level modules sh
 * Single Responsibility Principle
 * Open / Closed
 * Liskov Substitution Principle
-* ?
-* Dependancy _something?_
+* Inversion Of Control
+* Dependancy Inversion
 
 **_Inheritance & Composition &mdash;_**
 
